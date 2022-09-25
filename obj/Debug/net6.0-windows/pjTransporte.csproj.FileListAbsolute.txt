@@ -1,0 +1,17 @@
+C:\Users\GP\Desktop\Practica\pjTransporte\bin\Debug\net6.0-windows\pjTransporte.exe
+C:\Users\GP\Desktop\Practica\pjTransporte\bin\Debug\net6.0-windows\pjTransporte.deps.json
+C:\Users\GP\Desktop\Practica\pjTransporte\bin\Debug\net6.0-windows\pjTransporte.runtimeconfig.json
+C:\Users\GP\Desktop\Practica\pjTransporte\bin\Debug\net6.0-windows\pjTransporte.dll
+C:\Users\GP\Desktop\Practica\pjTransporte\bin\Debug\net6.0-windows\pjTransporte.pdb
+C:\Users\GP\Desktop\Practica\pjTransporte\obj\Debug\net6.0-windows\pjTransporte.csproj.AssemblyReference.cache
+C:\Users\GP\Desktop\Practica\pjTransporte\obj\Debug\net6.0-windows\pjTransporte.frmPractica.resources
+C:\Users\GP\Desktop\Practica\pjTransporte\obj\Debug\net6.0-windows\pjTransporte.csproj.GenerateResource.cache
+C:\Users\GP\Desktop\Practica\pjTransporte\obj\Debug\net6.0-windows\pjTransporte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GP\Desktop\Practica\pjTransporte\obj\Debug\net6.0-windows\pjTransporte.AssemblyInfoInputs.cache
+C:\Users\GP\Desktop\Practica\pjTransporte\obj\Debug\net6.0-windows\pjTransporte.AssemblyInfo.cs
+C:\Users\GP\Desktop\Practica\pjTransporte\obj\Debug\net6.0-windows\pjTransporte.csproj.CoreCompileInputs.cache
+C:\Users\GP\Desktop\Practica\pjTransporte\obj\Debug\net6.0-windows\pjTransporte.dll
+C:\Users\GP\Desktop\Practica\pjTransporte\obj\Debug\net6.0-windows\refint\pjTransporte.dll
+C:\Users\GP\Desktop\Practica\pjTransporte\obj\Debug\net6.0-windows\pjTransporte.pdb
+C:\Users\GP\Desktop\Practica\pjTransporte\obj\Debug\net6.0-windows\pjTransporte.genruntimeconfig.cache
+C:\Users\GP\Desktop\Practica\pjTransporte\obj\Debug\net6.0-windows\ref\pjTransporte.dll
