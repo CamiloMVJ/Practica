@@ -12,7 +12,6 @@ namespace pjTransporte
     {
         
         internal int Motor { get; set; }
-        internal double Precio { get; set; }
 
         public Moto(int motor, String tipo, String estado, double precio) : base(tipo, estado, precio)
         {   

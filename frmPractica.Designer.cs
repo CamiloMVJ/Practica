@@ -37,9 +37,13 @@
             this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader5 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader6 = new System.Windows.Forms.ColumnHeader();
             this.buttRegistrar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.txtMotor = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtMarca = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -90,11 +94,13 @@
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
-            this.columnHeader4});
+            this.columnHeader4,
+            this.columnHeader5,
+            this.columnHeader6});
             this.lvInfo.GridLines = true;
             this.lvInfo.Location = new System.Drawing.Point(55, 260);
             this.lvInfo.Name = "lvInfo";
-            this.lvInfo.Size = new System.Drawing.Size(485, 246);
+            this.lvInfo.Size = new System.Drawing.Size(574, 246);
             this.lvInfo.TabIndex = 4;
             this.lvInfo.UseCompatibleStateImageBehavior = false;
             this.lvInfo.View = System.Windows.Forms.View.Details;
@@ -119,10 +125,19 @@
             this.columnHeader4.Text = "Precio";
             this.columnHeader4.Width = 100;
             // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Codigo";
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Marca";
+            this.columnHeader6.Width = 100;
+            // 
             // buttRegistrar
             // 
             this.buttRegistrar.AutoSize = true;
-            this.buttRegistrar.Location = new System.Drawing.Point(465, 177);
+            this.buttRegistrar.Location = new System.Drawing.Point(554, 175);
             this.buttRegistrar.Name = "buttRegistrar";
             this.buttRegistrar.Size = new System.Drawing.Size(75, 27);
             this.buttRegistrar.TabIndex = 5;
@@ -143,14 +158,38 @@
             // 
             this.txtMotor.FormattingEnabled = true;
             this.txtMotor.Items.AddRange(new object[] {
-            "Motor pequeño",
-            "Motor mediano",
-            "Motor grande"});
+            "Pequeño",
+            "Mediano",
+            "Grande"});
             this.txtMotor.Location = new System.Drawing.Point(123, 177);
             this.txtMotor.Name = "txtMotor";
             this.txtMotor.Size = new System.Drawing.Size(121, 25);
             this.txtMotor.TabIndex = 7;
             this.txtMotor.Text = "(Seleccione)";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(329, 75);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(45, 17);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Marca";
+            // 
+            // txtMarca
+            // 
+            this.txtMarca.FormattingEnabled = true;
+            this.txtMarca.Items.AddRange(new object[] {
+            "Abarth",
+            "Alfa Romeo",
+            "Alpine",
+            "Aston Martin",
+            "Audi"});
+            this.txtMarca.Location = new System.Drawing.Point(393, 72);
+            this.txtMarca.Name = "txtMarca";
+            this.txtMarca.Size = new System.Drawing.Size(121, 25);
+            this.txtMarca.TabIndex = 9;
+            this.txtMarca.Text = "(Seleccione)";
             // 
             // frmPractica
             // 
@@ -158,6 +197,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(908, 518);
+            this.Controls.Add(this.txtMarca);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.txtMotor);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.buttRegistrar);
@@ -187,5 +228,9 @@
         private Button buttRegistrar;
         private Label label3;
         private ComboBox txtMotor;
+        private ColumnHeader columnHeader5;
+        private ColumnHeader columnHeader6;
+        private Label label4;
+        private ComboBox txtMarca;
     }
 }

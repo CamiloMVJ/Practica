@@ -13,6 +13,8 @@ namespace pjTransporte
         internal String Estado { get; set; }
         internal int Codigo { get; set; }
         internal double Precio { get; set; }
+        internal String Marca { get; set; }
+        internal String Color { get; set; }
 
         public Transporte(string tipo, string estado, double precio)
         {
